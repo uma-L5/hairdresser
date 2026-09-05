@@ -35,6 +35,12 @@ p {
     color: var(--highlight-color);
 }
 
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
 /* grid visualisation CSS for testing */
 
 /*
