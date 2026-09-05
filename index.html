@@ -1,66 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Hairdresser | Home</title>
 
     <!-- Custom CSS-->
-     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-     <!-- Credit: Bootstrap CSS link-->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Credit: Bootstrap CSS link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
 
-</head>
-
-<!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page-->
-<body class="d-flex flex-column min-vh-100">
-
+  <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page-->
+  <body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
-    <div>Navigation</div>
+    <!-- Credit: Bootstrap navigation for nav bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hairdresser-library.html">Library</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!--Header with carousel-->
     <header class="container">
-        <div class="row">
-            <div class="col-12 col-xl-6">Hairdresser</div>
-            <div class="col-12 col-xl-6">carousel</div>
-        </div>
+      <div class="row">
+        <div class="col-12 col-xl-6">Hairdresser</div>
+        <div class="col-12 col-xl-6">carousel</div>
+      </div>
     </header>
 
     <!--main element to hold all key sections of the home page. It is not part of the grid structure -->
     <main>
-        <!-- Services section -->
-         <section class="container">
-            <div class="row">
-                <div class="col-12">Services Section Heading</div>
-                <div class="col-12 col-md-6 col-xl-3">Service 1</div>
-                <div class="col-12 col-md-6 col-xl-3">Service 2</div>
-                <div class="col-12 col-md-6 col-xl-3">Service 3</div>
-                <div class="col-12 col-md-6 col-xl-3">Service 4</div>
-            </div>
-         </section>
+      <!-- Services section -->
+      <section class="container">
+        <div class="row">
+          <div class="col-12">Services Section Heading</div>
+          <div class="col-12 col-md-6 col-xl-3">Service 1</div>
+          <div class="col-12 col-md-6 col-xl-3">Service 2</div>
+          <div class="col-12 col-md-6 col-xl-3">Service 3</div>
+          <div class="col-12 col-md-6 col-xl-3">Service 4</div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer / contact section -->
-     <!-- mt-auto added to push footer to the bottom of the page -->
-     <footer class="mt-auto">
-        <div class="row justigy-content-center">
-            <div class="col-12">Contact Section Heading</div>
-            <!-- Contact info -->
-            <div class="col-12 col-md-6 col-xl-4">Contact info & Social links</div>
-            <!-- Opening Times-->
-            <div class="col-12 col-md-6 col-xl-4">Opening Times</div>
-
-        </div>
-
-     </footer>
+    <!-- mt-auto added to push footer to the bottom of the page -->
+    <footer class="mt-auto">
+      <div class="row justigy-content-center">
+        <div class="col-12">Contact Section Heading</div>
+        <!-- Contact info -->
+        <div class="col-12 col-md-6 col-xl-4">Contact info & Social links</div>
+        <!-- Opening Times-->
+        <div class="col-12 col-md-6 col-xl-4">Opening Times</div>
+      </div>
+    </footer>
 
     <!-- Credit: Bootstrap JS script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    
-    <!-- Credit: Font Awesome Kit-->
-    <script src="https://kit.fontawesome.com/b8c91933cc.js" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
 
-</body>
+    <!-- Credit: Font Awesome Kit-->
+    <script
+      src="https://kit.fontawesome.com/b8c91933cc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
