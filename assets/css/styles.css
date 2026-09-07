@@ -23,9 +23,17 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
-    color: var(--primary-color);
-    text-transform: uppercase;
+    color: var(--primary-color);   
 
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 p {
@@ -51,6 +59,18 @@ p {
 
 #header .lead {
     font-family: var(--secondary-font);
+}
+
+/* Services */
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transplarent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
 }
 
 /* grid visualisation CSS for testing */
