@@ -86,3 +86,38 @@ p {
     background-color: lightgray;
 }
 */
+
+/* Credit: Bootstrap code for consistance to fix the different devices to the service section in service cards*/
+/* Media queries*/
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    /* Make akk serivce cards the same height for consistency */
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /* Make akk serivce cards the same height for consistency */
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Make akk serivce cards the same height for consistency */
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* xxl devices (large desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+    /* Make akk serivce cards the same height for consistency */
+    #services .card-body {
+        min-height: 195px;
+    }
+}
