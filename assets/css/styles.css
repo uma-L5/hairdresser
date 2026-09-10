@@ -46,8 +46,7 @@ p {
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding: 4rem; /* prevent the navbar overlap */   
 }
 
 .custom-button-filled {

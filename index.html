@@ -42,7 +42,7 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Service</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="hairdresser-library.html">Library</a>
@@ -258,5 +258,29 @@
       src="https://kit.fontawesome.com/b8c91933cc.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Credit: JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventlistener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+
+                    }
+                });
+            });
+
+    </script>
   </body>
 </html>
