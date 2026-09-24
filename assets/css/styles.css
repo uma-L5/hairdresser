@@ -89,7 +89,7 @@ p {
 #services .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
-    background-color: transplarent;
+    background-color: transparent;
 }
 
 #services .card {
