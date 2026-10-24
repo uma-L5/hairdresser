@@ -78,6 +78,16 @@ p {
     background-color: var(--primary-color);
 }
 
+#navbar .logo {
+    width: 40px;
+    
+}
+
+.navbar img {
+    background: transparent;
+    
+}
+
 /* Header */
 
 #header .lead {
