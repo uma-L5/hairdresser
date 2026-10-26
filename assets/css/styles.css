@@ -55,6 +55,25 @@ p {
     padding: 4rem; /* prevent the navbar overlap */   
 }
 
+.carousel-image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+}
+
+.carousel-item {
+    width: 500px;
+    
+}
+
+.carpisel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 /* Buttons */
 
 .custom-button-filled {
