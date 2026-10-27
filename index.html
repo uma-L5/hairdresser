@@ -275,7 +275,7 @@
         document
             .querySelectorAll(".navbar-collapse .nav-link")
             .forEach((link) => {
-                link.addEventlistener("click", function (e) {
+                link.addEventListener("click", function (e) {
                     let section = document.querySelector(e.target.getAttribute("href"));
                     if (section) {
                         e.preventDefault(); // Prevent default anchor click behavior
