@@ -68,7 +68,7 @@ p {
     
 }
 
-.carpisel-item img {
+.carousel-item img {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -187,6 +187,13 @@ button.custom-button-outline:hover, a.custom-button-outline:hover {
     margin-bottom: 1.5rem;
 }
 
+/* Footer */
+
+.footer {
+    margin: 0;
+
+}
+
 /* Footer / contact */
 
 #contact {
@@ -224,19 +231,6 @@ button.custom-button-outline:hover, a.custom-button-outline:hover {
     background-color: transparent;
 }
 
-/* grid visualisation CSS for testing */
-
-/*
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
-*/
 
 /* Credit: Bootstrap code for consistance to fix the different devices to the service section in service cards*/
 /* Media queries*/

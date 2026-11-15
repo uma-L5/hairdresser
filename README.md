@@ -4,6 +4,34 @@
 This is the documentation for Hairdersser website. This site has been built using HTML and CSS for the Milestone 1 project for Code Institue's Web Development Diploma Course.
 
 ***
+## Contents
+
+- [Hairdresser](#hairdresser)
+  - [Contents](#contents)
+  - [User Experience - UX](#user-experience---ux)
+      - [Strategy](#strategy)
+        - [User Goals](#user-goals)
+        - [Site Goals](#site-goals)
+        - [Site Strories](#site-strories)
+      - [Scope](#scope)
+      - [Structure](#structure)
+      - [Skeleton](#skeleton)
+          - [Wireframes](#wireframes)
+      - [Features](#features)
+        - [Header](#header)
+        - [Navebar](#navebar)
+        - [Main](#main)
+        - [Footer](#footer)
+  - [Tecnologies Used](#tecnologies-used)
+      - [Languages](#languages)
+      - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+      - [Deployment](#deployment-1)
+  - [Credits](#credits)
+      - [Code Used](#code-used)
+      - [Media](#media)
+      - [Acknowledgments](#acknowledgments)
 
 ## User Experience - UX
 
@@ -11,7 +39,7 @@ This is the documentation for Hairdersser website. This site has been built usin
 
 This project was built as a milestone project 1 in Web Application Development with [Code Institue] as a learning tool for inteactive fronted development and my first project using HTML and CSS and there was no specific client. However, in order to create a more professional website, I created real-world application as I can use this website for my own website for long-term interactive website to understand better, user-friendly and anyone can use and build similar projects for future bussiness or for future work.
 
-##### User Goalsy
+##### User Goals
 
 * Simple Website for the people where they need hairstyle, haircuts and many more.
 * Has interactive extended pages and links with information where they can get service in real-time with their chosen service.
@@ -58,7 +86,7 @@ Hearder
 
 The header "Hairdresser" appears at the top of the page in all screen size.
 
-Navebar
+##### Navebar
 
 The navebar contains three pages and links that can be clicked to view and interact and access the service in the website.
 
@@ -81,16 +109,21 @@ The footer contains the information about the social media links open in a new t
 
 #### Frameworks, Libraries and Programs Used
 
-* [Bootstrap V5.3] - The framework for the website. CSS styling was also implemented in style.css
-* [favicon]  
-* [Figma] - For wireframes to the website.
-* [Font Awesome] - For the different fontstyle to the website.
-* Git - For version control.
-* Github - To store and save the files for the website.
-* Google Fonts - To import the fonts used on the website.
-* W3C Markup Validation Service - To validate HTML and CSS code.
+* [Bootstrap V5.3](#bootstrap-v5.3) - The framework for the website. CSS styling was also implemented in style.css
+* [favicon](#favicon)  
+* [Figma](#figma) - For wireframes to the website.
+* [Font Awesome](#font-awesome) - For the different fontstyle to the website.
+* [Git](#git) - For version control.
+* [Github](#github) - To store and save the files for the website.
+* [Google Fonts](#google-fonts) - To import the fonts used on the website.
+* [W3C](#w3c) Markup Validation Service - To validate HTML and CSS code.
 
 ***
+
+## Testing
+
+***
+
 
 ## Deployment
 
@@ -98,10 +131,6 @@ The footer contains the information about the social media links open in a new t
 
 
 ***
-
-## Testing
-
-*** 
 
 ## Credits
 
