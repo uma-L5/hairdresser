@@ -58,6 +58,19 @@ body {
     overflow-x: hidden;
 }
 
+main,
+section,
+footer,
+.box {
+    width: 100%;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Global styles */
 
 body {
@@ -248,7 +261,7 @@ button.custom-button-outline:hover, a.custom-button-outline:hover {
 /* Main Container */
 
 #pricing-container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -269,6 +282,7 @@ button.custom-button-outline:hover, a.custom-button-outline:hover {
     font-size: 2.5rem;
     color: #c79a3b;
     margin-bottom: 25px;
+    margin-bottom: 1.5rem;
 }
 
 /* Table */
@@ -296,6 +310,93 @@ button.custom-button-outline:hover, a.custom-button-outline:hover {
 .service-table td {
     padding: 15px;
     border: 1px solid #ddd;
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+    #pricing-container {
+        max-width: 1200px;
+    }
+
+    #pricing-title {
+        font-size: 3rem;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1199px) {
+    #pricing-container {
+        max-width: 95%;
+    }
+    
+    #pricing-title {
+        font-size: 2.2rem;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    #pricing-page {
+        padding: 1rem;
+    }
+
+    .glass-card {
+        padding: 1.5rem;
+    }
+
+    #pricing-title {
+        font-size: 1.8rem;
+    }
+
+    .service-table th,
+    .service-table td {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    #pricing-title {
+        font-size: 1.5rem;
+    }
+
+    .glass-card {
+        padding: 1rem;
+    }
+
+    /* Horizontal Scrolling table */
+    .table-wrapper {
+        overflow-x: auto;
+    }
+
+    .service-table {
+        min-width: 500px;
+    }
+
+    .service-table th,
+    .service-table td {
+        font-size: 0.85rem;
+        padding: 8px;
+    }
+
+}
+
+/* small Mobile */
+@media (max-width: 375px) {
+    #pricing-title {
+        font-size: 1.3rem;        
+    }
+
+    .section-heading th {
+        font-size: 0.9rem;
+    }
+
+    .service-table th,
+    .service-table td {
+        padding: 6px;
+        font-size: 0.75rem;
+    }
 }
 
 /* Alternate Rows */
