@@ -23,10 +23,7 @@ This is the documentation for Hairdersser website. This site has been built usin
       - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
   - [Testing](#testing)
   - [Deployment](#deployment)
-      - [Deployment](#deployment-1)
   - [Credits](#credits)
-      - [Code Used](#code-used)
-      - [Media](#media)
       - [Acknowledgments](#acknowledgments)
 
 ## User Experience - UX
@@ -80,7 +77,6 @@ Provide users with easy access to relevant information and services. Enhance use
 
 Maintain high standards of accessibility, performance and usability.
 
-  
 ***
 
 #### Structure
@@ -261,8 +257,54 @@ The website has been tested and optimised for modern web browsers, including:
 
 #### Frameworks, Libraries and Programs Used
 
+Frameworks
+
 The devalopment of this website incorporated a range of tools, libraries and software applications to support design, development, testing and version control processes.
 
+Libraries
+
+The following libraries and external resources were utilised:
+
+* Google Fonts
+  * Used to enhance typography and improve visual consistency across the website.
+  * provides optimised web fonts for improved readability and design aesthetics.
+
+* Font Awesome
+  * Provides scalable vector icons for navigation, social media links, and interface elements.
+  * Improves visual communication and user experience.
+
+Design Programs
+
+* Figma
+  * Used for reaserch, wireframing, prototyping and user interface design.
+  * Enabled the creation of responsive layouts and interactive protoypes before development.
+  * Provided a cooaborative environment for planning and design iteration.
+
+Dvelopment Programs
+
+* Visual Studio Code (VS Code)
+  * Primary development environment used for writing and maintaining source code.
+  * Supports extensions that improve productivity and code quality.
+
+Version control & Deployment
+
+* Git
+  * Used to track code changes throughout the development process.
+  * Facilitates version management and project organisation.
+
+* GitHub
+  * Utilised for repository hosting, version control and project documentation.
+  * Supports collaboration and continuous project backup.
+
+Browser Testing Tools
+
+The website was tested using:
+
+* Google Chrome Developer Tools
+  * Used for debugging, performance analysis, and responsive design testing/
+
+* Mozilla Firefox Developer Tools
+  * Used to verify cross-browser compatibility and inspect website elements.
 
 * [Bootstrap V5.3](#bootstrap-v5.3) - The framework for the website. CSS styling was also implemented in style.css
 * [favicon](#favicon)  
@@ -277,30 +319,225 @@ The devalopment of this website incorporated a range of tools, libraries and sof
 
 ## Testing
 
+Comprehensive testing was conducted throughout the dvelopment process to ensure the website functions correctly, remains responsive across different devices and provides a positive user experience.
+
+Manual Testing
+
+Manual testing was performed on all pages and features to verigy that:
+
+  * Navigation links direct users to the correct pages and sections.
+  * Buttons and interactive elements function as intended.
+  * Forms accept user input correctly and display appropriate feedback.
+  * Images load correctly without distortion or layout issues.
+  * Content is displayed consistently across all pages.
+  * Responsive layouts adapt correctly to different screen sizes.
+
+Responsive Testing
+
+The website was tested across multiple viewport sizes to ensure a consistent user experience.
+
+**| Device Type | Screen Width | Result |**
+| Mobile | 350px - 767px | Passed |
+| Tablet | 768px - 1199px | Passed |
+| Desktop | 1200px+ | Passed |
+
+Key Responsive Tests Included:
+
+* Navigation menu behaviour.
+* Image scaling and positioning.
+* Font readability.
+* Font readability.
+* Layout adaptation using Flexbox and CSS Grid.
+* Touch-friendly buttons and interactive elements.
+
+Browser Compatibility Testing
+
+The website was tested on the following browsers:
+
+**| Browser | Result |**
+| Google Chrome | Passed |
+| Microsoft Edge | Passed |
+| Mozilla Firefox | Passed |
+| Safari | Passed |
+
+Testing confirmed that the website maintains consistent functionality, styling, and responsiveness across modern browsers.
+
+Validation Testing
+
+HTML Validation
+
+* HTML code was tested using the W3C Markup Validation Service.
+* Semantic HTML elements were verifired.
+* Structural and syntax errors were corrected during development.
+
+CSS Validation
+
+* CSS stylesheets were tested using the W3C CSS Validation Service.
+* Invalid properties and syntax errors were identified and resolved.
+
+Accessibility checks were performed to ensure the website is usable by a wide range of users.
+
+Tests included:
+
+* Semantic HTML structure.
+* Keyboard navigation functionaliy.
+* Alternative text for images.
+* Sufficient colour contrast ratios.
+* Clear heading hierarcy and document structure.
+
+Performance Testing
+
+Performance optimisation included:
+* Compressing and optimising images.
+* Reducing unnecessary code.
+* Minimising page load times.
+* Testing responsive image behaviour.
+* Ensuring smooth navigation and page rendering.
+
+Bugs and Fixes
+
+**| Issue Identified | Resolution |**
+
+
+Testing Outcome
+
+All major functionality, responsiveness, accessibility and compatibility requirements wer successfully tested and verified.
+
 ***
 
 
 ## Deployment
 
-#### Deployment
+
+The deployment process involved publishing the project from a GitHub repository to GitHub Pages, making the website publicly accessible online.
+
+Steps for Deployment
+
+1. Push the project files to a GitHub repository.
+2. Navigate to the repository's Settings tab.
+3. Select Pages from the navigation menu.
+4. Under Build and Deployment, choose: 
+    * Source: Deploy from a branch.
+    * Branch: main (or master) and / root
+5. Save the configuration.
+6. GitHub automatically builds and deploys the website.
+7. Once deployment is complete, a live URL is generated and made available through GitHub Pages.
+
+Live Site: []
+
+GitHub Repository: []
+
+Post-Deployment Testing
+
+After deployment, the following checks were carried out:
+
+* Verified that all pages loaded correctly
+* Confirmed navigation links functioned as expected.
+* Tested responsiveness across desktop, tablet and moblie devices.
+* Checked images, icons and media assets displayed correctly.
+* Ensured forms and interactive elements operated as intended.
+* Conducted cross-browser testing to confirm compatibility.
+
+Deployment Technologies
+
+* Git
+* GitHub
+* GitHub Pages
+
+Deployment Outcome
+
+The deployement process successfully published the website to a live environment to a live environment, allowing users to access the project from any modern web browser.
 
 
 ***
 
 ## Credits
 
-#### Code Used
+The following resources, tools and references contributed to the successful design, development and testing of this website.
 
-* Bootstrap: 
-  
-#### Media
+Content
 
-*
+* Website content was researched, written and organised specifically for this project.
+* Any third-party content, references, or inspiration sources have been appropriately acknowledged where applicable.
+
+Media
+
+The following resources were used to source images, icons and visual assets:
+
+* Unsplash - High-quality royalty-free images.
+* Pexels - Free stock photography and videos.
+* Pixabay - Free images, illustrations and graphics.
+* Font Awesome - Icon library used for interface and social media icons.
+
+Design Resources
+
+* Figma - Used for wireframing, prototyping and user interface design.
+* Google Fonts - Used to provide typography and improve visual consistency.
+
+Development Resources
+
+The following resources were consulted throughtout the dvelopment process:
+
+* MDN Web Docs
+  * HTML, CSS and JavaScript documentation.
+  * Used for technical guidance and gest practices.
+
+* W3Schools
+  * Referenced for syntax examples, tutorials and implementation guidance.
+
+* Stack Overflow
+  * Used for troubleshooting development challenges and finding solutions to coding issues.
+* CSS
+  * Referenced for responsive design techniques and modern CSS implementations.
+
+Validation and Testing
+
+The following tools were used to validate and test the website:
+
+* W3C Markup Validation Service - HTML validation.
+* W3C CSS Validation Service - CSS validation.
+* Google Chrome DevTools - Debugging and responsive design testing.
+* Firefox Developer Tools - Cross-browser testing and inspection.
+
+Acknowledgements
+
+Special thanks to:
+
+* Mentor , peer reviewers, and testers who provided feedback and suggestions during the development process.
+* The open-source developer community for providing documentation, tutorials and technical support.
+* The creators and maintainers of the development tools and resources used throughout this project.
 
 #### Acknowledgments
 
-*
-*
-*
-*
+The successful completion of this project was made possible through the support of various individuals, communities and resources that provided guidance, inspiration and technical assistance throughout the development process.
 
+Special Thanks
+
+* Code Institute for providing the project framework, learning materials and guidance throughout the software development journey.
+* The Code Institute Tutor Support Team for offering assistance, troubleshooting advice and technical guidance during development.
+* The Code Insitute Slack Community for sharing knowledge, feedback and helpful resources.
+
+Developments Resources
+
+The following resources were instrumental in supporting the research, design, development and testing of this project:
+
+* MDN Web Docs for comprehensive HTML, CSS and JavaScript documentation.
+* W3Schools for tutorials, examples and reference materials.
+* Stack Overflow for community-driven solutions to dvelopment challenges.
+* CSS for responsive web design techniques and advanced CSS concepts.
+
+Design and Prototyping
+
+* Figma for wireframing, Prototyping and designing the user interface.
+* Google Fonts for typography resources.
+* Font Awesome for scalable icons and UI elements.
+
+Testing and Validation
+
+* W3C Markup Validator for HTML validation.
+* W3C CSS Validator for stylisheet validation.
+* Google Chrome DevTools and Firefox Developer Tools for debugging, responsive testing and performance analysis.
+
+Open Source Community
+
+Appreciation to the wider open-source community for creating and maintaining the tools, frameworks, libraries and documentation that support modern web development.
