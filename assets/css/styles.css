@@ -248,9 +248,7 @@ button.custom-button-outline:hover, a.custom-button-outline:hover {
 
 /* Page Background */
 
-#pricing-page {
-    background:    
-    url("assets/images/background-image.jpg");
+#pricing-page {    
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -263,6 +261,7 @@ button.custom-button-outline:hover, a.custom-button-outline:hover {
 #pricing-container {
     max-width: 1200px;
     margin: auto;
+    overflow-x: auto;
 }
 
 /* Glass Effect Card */
@@ -287,9 +286,15 @@ button.custom-button-outline:hover, a.custom-button-outline:hover {
 
 /* Table */
 
+.table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
 .service-table {
     width: 100%;
     border-collapse: collapse;
+    min-width: 700px;
 }
 
 /* Header */
@@ -308,8 +313,9 @@ button.custom-button-outline:hover, a.custom-button-outline:hover {
 
 .service-table th,
 .service-table td {
-    padding: 15px;
+    padding: 1rem;
     border: 1px solid #ddd;
+    text-align: center;
 }
 
 /* Large Desktop */
@@ -336,6 +342,12 @@ button.custom-button-outline:hover, a.custom-button-outline:hover {
 
 /* Tablet */
 @media (max-width: 768px) {
+
+    .service-table {
+        min-width: 100%;
+        font-size: 0.85rem;
+    }
+
     #pricing-page {
         padding: 1rem;
     }
@@ -350,7 +362,7 @@ button.custom-button-outline:hover, a.custom-button-outline:hover {
 
     .service-table th,
     .service-table td {
-        padding: 10px;
+        padding: 0.6rem;
         font-size: 0.9rem;
     }
 }
@@ -396,6 +408,52 @@ button.custom-button-outline:hover, a.custom-button-outline:hover {
     .service-table td {
         padding: 6px;
         font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .service-table,
+    .service-table thead,
+    .service-table tbody,
+    .service-table tr,
+    .service-table td,
+    .service-table th {
+        display: block;
+    }
+
+    .service-table thead {
+        display: none;
+    }
+
+    .service-table tr {
+        background: #fff;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,.1);
+    }
+
+    .service-table td {
+        display: flex;
+        justify-content: space-between;
+        border: none;
+        padding: 0.5rem 0;
+    }
+
+    .service-table td:nth-child(2)::before {
+        content: "stylist";
+        font-weight: bold;
+    }
+
+    .service-table td:nth-child(3)::before {
+        content: "Senior";
+        font-weight: bold;
+    }
+
+    .service-table td:nth-child(4)::before {
+        content: "Manager";
+        font-weight: bold;
     }
 }
 
