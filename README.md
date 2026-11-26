@@ -87,7 +87,7 @@ Main Components
 
 * HTML File: Contains the structure and content of each web pages.
 * CSS Directory: Stores stylesheets responsible for the visual design and responsive layout.
-* JavaScript DirectoryL contains scrips that provides interactivity and dynamic functionalities.
+* JavaScript Directory: contains scrips that provides interactivity and dynamic functionalities.
 * Images Directory: Holds all visual assets, including logo, and gallery images.
 * README File: Provides project documentation, setup instruction, and development guidelines.
 
@@ -140,6 +140,8 @@ This skeleton provides the foundational framework for the website, ensuring a pr
 ###### Wireframes
 
 The Wireframes featured here are the simple versions of the wireframes illustrate the basic layout and content structure of the website across different devices. The original wireframes were created with the availability of different service sections, navigations and user flow before visual styling is applied.
+
+![wireframe](/wireframe/wireframe.hairdresser.jpg)
 
 Responsive Design Considerations
 
@@ -301,7 +303,7 @@ Browser Testing Tools
 The website was tested using:
 
 * Google Chrome Developer Tools
-  * Used for debugging, performance analysis, and responsive design testing/
+  * Used for debugging, performance analysis, and responsive design testing
 
 * Mozilla Firefox Developer Tools
   * Used to verify cross-browser compatibility and inspect website elements.
@@ -336,7 +338,8 @@ Responsive Testing
 
 The website was tested across multiple viewport sizes to ensure a consistent user experience.
 
-**| Device Type | Screen Width | Result |**
+| Device Type | Screen Width | Result |
+|---|---|---|
 | Mobile | 350px - 767px | Passed |
 | Tablet | 768px - 1199px | Passed |
 | Desktop | 1200px+ | Passed |
@@ -350,11 +353,42 @@ Key Responsive Tests Included:
 * Layout adaptation using Flexbox and CSS Grid.
 * Touch-friendly buttons and interactive elements.
 
+![screenshot](/screenshot/Screenshot%201.png)
+
+![screenshot](/screenshot/Screenshot%202.png)
+
+![screenshot](/screenshot/Screenshot%203.png)
+
+![screenshot](/screenshot/Screenshot%204.png)
+
+![screenshot](/screenshot/Screenshot%205.png)
+
+![screenshot](/screenshot/Screenshot%206.png)
+
+![screenshot](/screenshot/Screenshot%207.png)
+
+![screenshot](/screenshot/Screenshot%20M1.png) ![screenshot](/screenshot/Screenshot%20M2.png)
+
+![screenshot](/screenshot/Screenshot%20M3.png) ![screenshot](/screenshot/Screenshot%20M4.png)
+
+![screenshot](/screenshot/Screenshot%20M5.png) ![screenshot](/screenshot/Screenshot%20M6.png)
+
+![screenshot](/screenshot/Screenshot%20M7.png)
+
+![screenshot](/screenshot/Screenshot%20T1.png)
+
+![screenshot](/screenshot/Screenshot%20T2.png)
+
+![screenshot](/screenshot/Screenshot%20T3.png)
+
+![screenshot](/screenshot/Screenshot%20T4.png)
+
 Browser Compatibility Testing
 
 The website was tested on the following browsers:
 
-**| Browser | Result |**
+| Browser | Result |
+|---|---|
 | Google Chrome | Passed |
 | Microsoft Edge | Passed |
 | Mozilla Firefox | Passed |
@@ -396,8 +430,8 @@ Performance optimisation included:
 
 Bugs and Fixes
 
-**| Issue Identified | Resolution |**
-
+| Issue Identified | Resolution |
+| --- | --- |
 
 Testing Outcome
 
@@ -503,7 +537,8 @@ Acknowledgements
 
 Special thanks to:
 
-* Mentor , peer reviewers, and testers who provided feedback and suggestions during the development process.
+* My Mentor and Lecturer **`Miguel Ortega Legorreta`** provided feedback and suggestions during the development process.
+* peer reviewers, and testers who provided feedback and suggestions during the development process.
 * The open-source developer community for providing documentation, tutorials and technical support.
 * The creators and maintainers of the development tools and resources used throughout this project.
 
